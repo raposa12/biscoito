@@ -1,0 +1,23 @@
+
+
+.container{
+    display: flex;/*iniciando o flexiblidade da pagina*/
+    flex-direction: column;/*alinhando tudo um embaixo do outro */
+    width: 100%;
+    justify-content: center;/*alinhando pro centro*/
+    align-items: center;/*Colocando os utems pro centro */
+}
+
+.img{
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+}
+
+
+/*estilização da frase do biscoito*/
+.textoFrase{
+    font-style: italic;
+    color: #dd7b22;
+    text-align: center;
+}
